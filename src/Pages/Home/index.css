@@ -1,0 +1,18 @@
+body {
+    overflow-y: hidden;
+}
+
+.containAll {
+    background: url('./../../Assets/bgindex.gif');
+    height: 99vh;
+    border: 1px red solid;
+}
+
+.containTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.containAll .containTitle h1 {
+    color: white
+}
