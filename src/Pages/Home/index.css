@@ -7,7 +7,7 @@ body {
     height: 99vh;
     width: 100vw;
     border: 1px black solid;
-    padding-top: 4vh;
+    padding-top: 4.5vh;
 }
 
 .containTitle {
@@ -16,5 +16,6 @@ body {
 }
 
 .containAll .containTitle h1 {
-    color: white
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
