@@ -1,11 +1,13 @@
 body {
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .containAll {
     background: url('./../../Assets/bgindex.gif');
     height: 99vh;
-    border: 1px red solid;
+    width: 100vw;
+    border: 1px black solid;
+    padding-top: 4vh;
 }
 
 .containTitle {
