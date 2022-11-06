@@ -8,6 +8,36 @@
     width: 100vw;
 }
 
+@media screen and (max-width: 1200px) {
+    .contain {
+        height: 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contain {
+        height: 6vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contain {
+        height: 7vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contain div p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contain {
+        height: 8vw;
+    }
+}
+
 .containTextRight{
     background: rgba(204, 204, 204, 0.507);
     display: flex;
