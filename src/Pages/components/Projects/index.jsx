@@ -4,7 +4,12 @@ import './index.css';
 
 const Projects = () => (
   <div className="containProjects">
-    <p className="textProjects">Projetos</p>
+    <div>
+      <p className="textProjects">Projetos</p>
+    </div>
+    {/* <div>
+
+    </div> */}
   </div>
 );
 
