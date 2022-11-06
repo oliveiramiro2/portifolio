@@ -24,6 +24,25 @@
     background: #fff;
     border-radius: 50%;
     padding: 5px;
+    margin-bottom: 10px;
+}
+
+.imgSkill:hover {
+    background: rgba(255, 0, 0, 0.849);
+    cursor: pointer;
+}
+
+.react {
+    animation: rotationReact 3s infinite linear;
+}
+
+@keyframes rotationReact {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .containDescriptionSkill {

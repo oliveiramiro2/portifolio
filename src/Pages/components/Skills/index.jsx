@@ -29,7 +29,7 @@ const Skills = () => (
       <div className="imgSkill">
         <img src={TypeScript} alt="TypeScript" height={120} width={120} />
       </div>
-      <div className="imgSkill">
+      <div className="imgSkill react">
         <img src={ReactJs} alt="React-Js" height={120} width={120} />
       </div>
       <div className="imgSkill">
