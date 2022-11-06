@@ -21,8 +21,12 @@ const Projects = () => (
     <div>
       <iframe
         id="appetize"
-        src="https://appetize.io/app/myzsjsp6sqeyr4rmceemurm3e4"
+        src="https://appetize.io/embed/cvh2wophkqedythyg56ra4rv6y?device=iphone11pro"
         title="netflix"
+        width="378px"
+        height="800px"
+        frameBorder="0"
+        scrolling="no"
       />
     </div>
   </div>
