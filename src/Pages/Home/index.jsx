@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../components/AboutUs';
 import Header from '../components/Header';
 
 import './index.css';
@@ -6,9 +7,10 @@ import './index.css';
 const Home = () => (
   <div className="containAll">
     <Header />
-    <div className="containTitle">
+    <AboutUs />
+    {/* <div className="containTitle">
       <h1>Protifólio Ramiro</h1>
-    </div>
+    </div> */}
   </div>
 );
 

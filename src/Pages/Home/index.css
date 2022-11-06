@@ -4,7 +4,6 @@ body {
 
 .containAll {
     background: url('./../../Assets/bgindex.gif');
-    height: 99vh;
     width: 100vw;
     border: 1px black solid;
     padding-top: 4.5vh;
