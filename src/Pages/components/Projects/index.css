@@ -1,12 +1,38 @@
 .containProjects {
-    min-height: 95vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .textProjects{
     color: aliceblue;
     font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.containProjectsImgs {
+    padding: 20px 0;
+    background: #fff;
+    width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #f00;
+}
+
+.imgsProject {
+    height: 100px;
+    width: 100px;
+    background: #000;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.imgsProjectsEmpty {
+    background: #fff;
 }
