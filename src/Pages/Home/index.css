@@ -3,7 +3,7 @@ body {
 }
 
 .containAll {
-    background: url('./../../Assets/bgindex.gif');
+    background: url('./../../Assets/bgindex.gif') #000;
     width: 100vw;
     border: 1px black solid;
     padding-top: 4.5vh;
