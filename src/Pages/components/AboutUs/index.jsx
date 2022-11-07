@@ -23,6 +23,7 @@ const AboutUs = () => {
 
   return (
     <div className="containAbout">
+      <h1 className="textInfoPage">Protifólio Ramiro Mares de Oliveira</h1>
       <ScrollAnimation animateIn="fadeIn">
         <div className="containContentAbout contentPicture">
           <img alt="Ramiro" src={Image} />
