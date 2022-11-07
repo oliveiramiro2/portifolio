@@ -21,7 +21,7 @@ const Projects = () => {
     <div className="containProjects">
       <div>
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-          <h2 className="textProjects">Projetos</h2>
+          <h2 id="projects" className="textProjects">Projetos</h2>
         </ScrollAnimation>
       </div>
       {numberProjectShowed === undefined

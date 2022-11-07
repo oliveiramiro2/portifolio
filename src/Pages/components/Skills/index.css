@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+.textPointSkills {
+    position: relative;
+    bottom: 50px;
+    left: -1000px;
+}
+
 .textSkills{
     color: aliceblue;
     font-size: 35px;
@@ -61,5 +67,5 @@
 .containDescriptionSkill span {
     color: #000;
     font-size: 20px;
-    word-break: break-all;
+    word-break: keep-all;
 }

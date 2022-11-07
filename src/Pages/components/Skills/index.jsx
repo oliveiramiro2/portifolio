@@ -56,6 +56,7 @@ const Skills = () => {
 
   return (
     <div className="containSkills">
+      <p className="textPointSkills" id="skills">Habilidades</p>
       <div>
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
           <h2 className="textSkills">Habilidades</h2>
