@@ -23,7 +23,7 @@ const AboutUs = () => {
 
   return (
     <div className="containAbout">
-      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+      <ScrollAnimation animateIn="fadeIn">
         <div className="containContentAbout contentPicture">
           <img alt="Ramiro" src={Image} />
         </div>
