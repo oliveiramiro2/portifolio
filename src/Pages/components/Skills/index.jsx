@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Html5 from '../../../Assets/HTML5.png';
 import Css3 from '../../../Assets/CSS3.png';
@@ -44,6 +44,16 @@ const skillsDescribes = [
 const Skills = () => {
   const [numberShowSkill, setNumberShowSkill] = useState(0);
 
+  useEffect(() => {
+    skillsDescribes.forEach((element) => {
+      if (element.id === numberShowSkill) {
+        document.getElementById(`containImg${element.id}`).classList.add('imgSkillSeleted');
+      } else {
+        document.getElementById(`containImg${element.id}`).classList.remove('imgSkillSeleted');
+      }
+    });
+  }, [numberShowSkill]);
+
   return (
     <div className="containSkills">
       <div>
@@ -52,25 +62,25 @@ const Skills = () => {
         </ScrollAnimation>
       </div>
       <div className="containSkillImgs">
-        <div className="imgSkill">
+        <div id="containImg0" className="imgSkill">
           <img onClick={() => setNumberShowSkill(0)} src={Html5} alt="Html5" height={120} width={120} />
         </div>
-        <div className="imgSkill">
+        <div id="containImg1" className="imgSkill">
           <img onClick={() => setNumberShowSkill(1)} src={Css3} alt="Css3" height={120} width={120} />
         </div>
-        <div className="imgSkill">
+        <div id="containImg2" className="imgSkill">
           <img onClick={() => setNumberShowSkill(2)} src={JavaScript} alt="JavaScript" height={120} width={120} />
         </div>
-        <div className="imgSkill">
+        <div id="containImg3" className="imgSkill">
           <img onClick={() => setNumberShowSkill(3)} src={TypeScript} alt="TypeScript" height={120} width={120} />
         </div>
-        <div className="imgSkill react">
+        <div id="containImg4" className="imgSkill">
           <img onClick={() => setNumberShowSkill(4)} src={ReactJs} alt="React-Js" height={120} width={120} />
         </div>
-        <div className="imgSkill">
+        <div id="containImg5" className="imgSkill">
           <img onClick={() => setNumberShowSkill(5)} src={Node} alt="Node" height={120} width={120} />
         </div>
-        <div className="imgSkill">
+        <div id="containImg6" className="imgSkill">
           <img onClick={() => setNumberShowSkill(6)} src={Figma} alt="Figma" height={120} width={120} />
         </div>
       </div>

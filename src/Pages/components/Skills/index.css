@@ -28,21 +28,16 @@
 }
 
 .imgSkill:hover {
-    background: rgba(255, 0, 0, 0.849);
+    background: #f00;
     cursor: pointer;
 }
 
-.react {
-    animation: rotationReact 3s infinite linear;
+.imgSkillSeleted {
+    background: #f00;
 }
 
-@keyframes rotationReact {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.imgSkillSeleted:hover {
+    cursor: default;
 }
 
 .containDescriptionSkill {
