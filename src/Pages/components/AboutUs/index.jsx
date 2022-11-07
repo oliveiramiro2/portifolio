@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Image from '../../../Assets/Ramiro.png';
 
 import './index.css';
@@ -22,9 +23,11 @@ const AboutUs = () => {
 
   return (
     <div className="containAbout">
-      <div className="containContentAbout contentPicture">
-        <img alt="Ramiro" src={Image} />
-      </div>
+      <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+        <div className="containContentAbout contentPicture">
+          <img alt="Ramiro" src={Image} />
+        </div>
+      </ScrollAnimation>
       <div className="containContentAbout">
         <p id="textMyInfo" className="textAbout">Desenvolvedor Web/Mobile. Estudante de TI, apaixonado por tecnologia e programação!!!</p>
       </div>

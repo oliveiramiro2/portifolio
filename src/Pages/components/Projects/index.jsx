@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { BiArrowBack } from 'react-icons/bi';
 import Netflix from '../../../Assets/netflix.png';
 import Breve from '../../../Assets/breve.png';
@@ -19,7 +20,9 @@ const Projects = () => {
   return (
     <div className="containProjects">
       <div>
-        <p className="textProjects">Projetos</p>
+        <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+          <p className="textProjects">Projetos</p>
+        </ScrollAnimation>
       </div>
       {numberProjectShowed === undefined
         ? (

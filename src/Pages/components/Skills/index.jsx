@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Html5 from '../../../Assets/HTML5.png';
 import Css3 from '../../../Assets/CSS3.png';
 import JavaScript from '../../../Assets/js.png';
@@ -14,7 +15,9 @@ const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 const Skills = () => (
   <div className="containSkills">
     <div>
-      <p className="textSkills">Habilidades</p>
+      <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+        <p className="textSkills">Habilidades</p>
+      </ScrollAnimation>
     </div>
     <div className="containSkillImgs">
       <div className="imgSkill">
