@@ -12,9 +12,6 @@ const Home = () => (
     <AboutUs />
     <Skills />
     <Projects />
-    {/* <div className="containTitle">
-      <h1>Protifólio Ramiro</h1>
-    </div> */}
   </div>
 );
 
