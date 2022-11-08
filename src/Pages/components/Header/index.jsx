@@ -16,9 +16,17 @@ const Header = () => (
       </a>
     </div>
     <div className="containTextRight">
-      <p className="text">Sobre mim</p>
-      <p className="text">Habilidades</p>
-      <p className="text">Projetos</p>
+      <ul>
+        <li>
+          <a href="#aboutUs" className="text">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#skills" className="text">Habilidades</a>
+        </li>
+        <li>
+          <a href="#projects" className="text">Projetos</a>
+        </li>
+      </ul>
     </div>
   </header>
 );

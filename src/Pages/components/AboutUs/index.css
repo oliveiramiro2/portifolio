@@ -20,8 +20,8 @@
 
 .textInfoPage {
     position: absolute;
-    top: -400;
-    left: -400px;
+    top: -100px;
+    left: -1000px;
 }
 
 .contentPicture {

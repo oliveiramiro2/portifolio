@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    .contain div p {
+    .contain div ul li a {
         font-size: 13px;
     }
 }
@@ -37,7 +37,7 @@
         height: 50px;
     }
 
-    .contain div p {
+    .contain div ul li a {
         font-size: 10px;
     }
 }
@@ -54,16 +54,24 @@
     margin-right: 5px;
 }
 
-.containTextRight {
-    justify-content: space-around;
-}
-
-.containIconsLeft, .containTextRight{
+.containIconsLeft, .containTextRight {
     background: rgba(204, 204, 204, 0.507);
     padding: 0 20px;
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+.containTextRight ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
 }
 
 .contain div {
@@ -72,4 +80,5 @@
 
 .text {
     color: aliceblue;
+    text-decoration: none;
 }
