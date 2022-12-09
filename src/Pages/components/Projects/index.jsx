@@ -9,7 +9,7 @@ import './index.css';
 const projectsKeys = [
   {
     id: 0,
-    value: 'cvh2wophkqedythyg56ra4rv6y',
+    value: 'l5vwa3gsaqewdnjkuw6a5hx62u',
     describe: 'Um clone do aplicativo Netflix usando React-Native',
   },
 ];
@@ -68,11 +68,13 @@ const Projects = () => {
                 </p>
               </div>
               <p className="textDescribe">{projectsKeys[numberProjectShowed].describe}</p>
+              <p className="textDescribe">Uma prévia será aberta com o appetize a direita da tela!</p>
+              <p className="textDescribe">Aprecie :D</p>
               <a href="https://github.com/oliveiramiro2/NetflixClone" target="_blank" rel="noreferrer">Repositório no GitHub</a>
             </div>
             <iframe
               id="appetize"
-              src={`https://appetize.io/embed/${projectsKeys[numberProjectShowed].value}?device=iphone11pro`}
+              src={`https://appetize.io/embed/${projectsKeys[numberProjectShowed].value}?device=pixel4`}
               title="netflix"
               height="700px"
               width="320px"

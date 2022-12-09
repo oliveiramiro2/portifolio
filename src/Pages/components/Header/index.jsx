@@ -6,11 +6,11 @@ import './index.css';
 const Header = () => (
   <header className="contain">
     <div className="containIconsLeft">
-      <a href="https://github.com/oliveiramiro2" target="_blank" rel="noreferrer">
+      <a href="https://github.com/oliveiramiro2" target="_blank" rel="noreferrer" className="text">
         <AiFillGithub color="#fff" size={25} />
         GitHub
       </a>
-      <a href="https://www.linkedin.com/in/oliveiramiro2" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/oliveiramiro2" target="_blank" rel="noreferrer" className="text">
         <AiFillLinkedin color="#fff" size={25} />
         Linkedin
       </a>
