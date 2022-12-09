@@ -77,6 +77,10 @@
         justify-content: space-around;
     }
 
+    .containIconsLeft a {
+        font-size: 13px;
+    }
+
     .containTextRight ul {
         justify-content: space-between;
         margin-right: 20px;
