@@ -60,6 +60,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .containTextRight ul {
@@ -71,19 +72,50 @@
 }
 
 @media screen and (max-width: 750px) {
+    .containIconsLeft, .containTextRight {
+        align-items: center;
+        justify-content: center;
+    }
+
     .containIconsLeft {
-        max-width: 30vw;
+        max-width: 35vw;
         font-size: 13px;
         justify-content: space-around;
     }
 
     .containIconsLeft a {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .containTextRight ul {
         justify-content: space-between;
-        margin-right: 20px;
+        position: relative;
+        bottom: 2px;
+        margin-right: 25px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .containIconsLeft, .containTextRight {
+        max-width: 40vw;
+    }
+
+    .containTextRight ul {
+        min-width: 43vw;
+        justify-content: center;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .containTextRight ul li {
+        margin-right: 10px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .containTextRight ul li a {
+        font-size: 10px;
     }
 }
 
