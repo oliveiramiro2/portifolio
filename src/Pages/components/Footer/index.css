@@ -1,0 +1,30 @@
+footer {
+    width: 100vw;
+    height: 15vh;
+    background: #fff;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    scroll-snap-stop: normal;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap column;
+    justify-content: center;
+    position: relative;
+    bottom: 11px;
+}
+
+.textFooter {
+    font-weight: bold;
+    font-family: 'Dancing Script';
+    font-size: 17px;
+}
+
+.textFooter:where(p) {
+    font-size: 22px;
+}
