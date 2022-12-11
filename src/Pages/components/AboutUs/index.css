@@ -33,6 +33,13 @@
     padding-left: 20px;
 }
 
+
+@media screen and (max-width: 550px) {
+    .contentPicture {
+        max-width: 250px;
+    }
+}
+
 .textAbout {
     color: aliceblue;
     font-size: 40px;

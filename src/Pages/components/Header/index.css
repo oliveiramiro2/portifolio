@@ -41,6 +41,17 @@
     .contain div ul li a {
         font-size: 10px;
     }
+
+    .containIconsLeft {
+        position: relative;
+        left: 20px;
+    }
+
+    .containTextRight ul {
+        justify-content: space-between;
+        position: relative;
+        right: 10px;
+    }
 }
 
 .containIconsLeft a {
