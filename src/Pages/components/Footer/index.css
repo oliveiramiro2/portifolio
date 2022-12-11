@@ -1,6 +1,6 @@
 footer {
     width: 100vw;
-    height: 15vh;
+    min-height: 15vh;
     background: #fff;
     display: flex;
     flex-flow: wrap row;
