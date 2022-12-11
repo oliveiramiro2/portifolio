@@ -63,37 +63,37 @@ const Skills = () => {
         </ScrollAnimation>
       </div>
       <div className="containSkillImgs">
-        <ScrollAnimation animateIn="flipInX" duration={0.5} className="imgSkill">
+        <ScrollAnimation animateIn="flipInX" animateOut="fadeOut" className="imgSkill">
           <div id="containImg0">
             <img onClick={() => setNumberShowSkill(0)} src={Html5} alt="Html5" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInY" duration={1} className="imgSkill">
+        <ScrollAnimation animateIn="flipInY" animateOut="fadeOut" className="imgSkill">
           <div id="containImg1">
             <img onClick={() => setNumberShowSkill(1)} src={Css3} alt="Css3" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX" duration={1.5} className="imgSkill">
+        <ScrollAnimation animateIn="flipInX" animateOut="fadeOut" className="imgSkill">
           <div id="containImg2">
             <img onClick={() => setNumberShowSkill(2)} src={JavaScript} alt="JavaScript" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInY" duration={2} className="imgSkill">
+        <ScrollAnimation animateIn="flipInY" animateOut="fadeOut" className="imgSkill">
           <div id="containImg3">
             <img onClick={() => setNumberShowSkill(3)} src={TypeScript} alt="TypeScript" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX" duration={2.5} className="imgSkill">
+        <ScrollAnimation animateIn="flipInX" animateOut="fadeOut" className="imgSkill">
           <div id="containImg4">
             <img onClick={() => setNumberShowSkill(4)} src={ReactJs} alt="React-Js" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInY" duration={3} className="imgSkill">
+        <ScrollAnimation animateIn="flipInY" animateOut="fadeOut" className="imgSkill">
           <div id="containImg5">
             <img onClick={() => setNumberShowSkill(5)} src={Node} alt="Node" height={120} width={120} />
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="flipInX" duration={3.5} className="imgSkill">
+        <ScrollAnimation animateIn="flipInX" animateOut="fadeOut" className="imgSkill">
           <div id="containImg6">
             <img onClick={() => setNumberShowSkill(6)} src={Figma} alt="Figma" height={120} width={120} />
           </div>

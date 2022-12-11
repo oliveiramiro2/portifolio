@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     scroll-behavior: smooth;
     scroll-snap-stop: normal;
 }
