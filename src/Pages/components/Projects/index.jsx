@@ -28,32 +28,46 @@ const Projects = () => {
         ? (
           <div className="containProjectsImgs">
             <div className="containProject">
-              <p className="textDescribe">Netflix</p>
-              <img className="imgsProject" src={Netflix} alt="Netflix" onClick={() => setNumberProjectShowed(0)} width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOuv" className="containProject">
+                <p className="textDescribe">Netflix</p>
+                <img className="imgsProject" src={Netflix} alt="Netflix" onClick={() => setNumberProjectShowed(0)} width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
             <div className="containProject">
-              <p className="textDescribe">Em Breve</p>
-              <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="containProject">
+                <p className="textDescribe">Em Breve</p>
+                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+              </ScrollAnimation>
             </div>
           </div>
         )
