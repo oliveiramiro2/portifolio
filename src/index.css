@@ -31,6 +31,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-button {
     background-color: #000;
+    display: none;
 }
 
 body::-webkit-scrollbar-thumb {
