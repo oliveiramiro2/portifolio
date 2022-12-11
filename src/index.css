@@ -48,3 +48,13 @@ code {
     font-family: 'Dancing Script';
     src: url(../public/DancingScript.ttf);
 }
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../public/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url(../public/GreatVibes.ttf);
+}

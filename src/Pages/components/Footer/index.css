@@ -28,3 +28,7 @@ footer div {
 .textFooter:where(p) {
     font-size: 22px;
 }
+
+.textFooter:where(span) {
+    font-family: monospace;
+}

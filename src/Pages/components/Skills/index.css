@@ -15,15 +15,20 @@
     left: -1000px;
 }
 
-.textSkillsTitle {
-    position: relative;
-    top: 70px;
+.textSkills, .textSkillsTitle{
+    color: aliceblue;
 }
 
-.textSkills{
-    color: aliceblue;
+.textSkills {
     font-size: 35px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textSkillsTitle {
+    position: relative;
+    top: 50px;
+    font-family: "Great Vibes";
+    font-size: 50px;
 }
 
 .containSkillImgs {

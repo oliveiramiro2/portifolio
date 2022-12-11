@@ -59,7 +59,7 @@ const Skills = () => {
       <p className="textPointSkills" id="skills">Habilidades</p>
       <div>
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-          <h2 className="textSkills textSkillsTitle">Habilidades</h2>
+          <h2 className="textSkillsTitle">Habilidades</h2>
         </ScrollAnimation>
       </div>
       <div className="containSkillImgs">
