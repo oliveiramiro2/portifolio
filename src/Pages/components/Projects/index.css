@@ -1,4 +1,5 @@
 .containProjects {
+    background: url(../../../Assets/background2.png) center;
     min-height: 100vh;
     display: flex;
     align-items: center;

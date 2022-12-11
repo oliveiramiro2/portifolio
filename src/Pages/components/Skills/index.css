@@ -1,5 +1,5 @@
 .containSkills {
-    background: url(../../../Assets/background.png) content-box;
+    background: url(../../../Assets/background.png) center;
     min-height: 100vh;
     display: flex;
     align-items: center;
