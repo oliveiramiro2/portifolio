@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 .containAll {
     background: url('./../../Assets/bgindex.gif') #000;
     width: 100vw;

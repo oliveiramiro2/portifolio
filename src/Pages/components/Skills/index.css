@@ -1,14 +1,22 @@
 .containSkills {
-    min-height: 95vh;
+    min-height: 110vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    scroll-snap-stop: normal;
 }
 
 .textPointSkills {
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     left: -1000px;
+}
+
+.textSkillsTitle {
+    position: relative;
+    top: 70px;
 }
 
 .textSkills{
@@ -39,7 +47,9 @@
 }
 
 .imgSkillSeleted {
-    background: #f00;
+    position: relative;
+    bottom: 20px;
+    opacity: .9;
 }
 
 .imgSkillSeleted:hover {

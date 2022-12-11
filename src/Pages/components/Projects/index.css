@@ -4,6 +4,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    scroll-snap-stop: normal;
 }
 
 .textProjects{
