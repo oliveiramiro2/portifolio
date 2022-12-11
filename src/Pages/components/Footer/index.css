@@ -8,7 +8,7 @@ footer {
     scroll-snap-align: center;
     scroll-behavior: smooth;
     scroll-snap-stop: normal;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 footer div {
