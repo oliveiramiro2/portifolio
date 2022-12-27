@@ -8,6 +8,7 @@
     scroll-snap-align: start;
     scroll-behavior: smooth;
     scroll-snap-stop: normal;
+    background: url('./../../../Assets/bgindex.gif');
 }
 
 .containContentAbout {

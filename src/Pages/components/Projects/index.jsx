@@ -4,6 +4,7 @@ import { BiArrowBack } from 'react-icons/bi';
 
 import Netflix from '../../../Assets/netflix.png';
 import Pokedex from '../../../Assets/Pokedex.png';
+import Youtube from '../../../Assets/youtube.png'
 import Breve from '../../../Assets/breve.png';
 
 import './index.css';
@@ -13,7 +14,7 @@ const projectsKeys = [
     id: 0,
     value: 'l5vwa3gsaqewdnjkuw6a5hx62u',
     gitRepository: 'https://github.com/oliveiramiro2/NetflixClone',
-    describe: 'Um clone do aplicativo Netflix usando React-Native',
+    describe: 'Um clone do aplicativo Netflix usando React-Native e Typescript',
     mobile: true,
   },
   {
@@ -22,6 +23,13 @@ const projectsKeys = [
     gitRepository: 'https://github.com/oliveiramiro2/pokedex-updated',
     describe: 'Uma pokédex criada com ReactJs e Typescript, além de libs como Styled Components e Material UI',
     mobile: false,
+  },
+  {
+    id: 2,
+    value: 'ij45o7aynaz4ovu7bnppllvq3u',
+    gitRepository: 'https://github.com/oliveiramiro2/RNYoutubeInferface',
+    describe: 'Um clone do aplicativo Youtube usando React-Native e Typescript',
+    mobile: true,
   },
 ];
 
@@ -47,8 +55,8 @@ const Projects = () => {
                 <img className="imgsProject" src={Pokedex} alt="Pokedex" onClick={() => setNumberProjectShowed(1)} width={100} height={100} />
             </div>
             <div className="containProject">
-                <p className="textDescribe">Em Breve</p>
-                <img className="imgsProject imgsProjectsEmpty" src={Breve} alt="Breve" width={100} height={100} />
+                <p className="textDescribe">Youtube</p>
+                <img className="imgsProject" src={Youtube} alt="Youtube" onClick={() => setNumberProjectShowed(2)} width={100} height={100} />
             </div>
             <div className="containProject">
                 <p className="textDescribe">Em Breve</p>

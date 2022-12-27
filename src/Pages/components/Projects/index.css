@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     scroll-behavior: smooth;
     scroll-snap-stop: normal;
 }
